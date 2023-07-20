@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <input id="close-menu" 
+  class="close-menu" 
+  type="checkbox" 
+  aria-label="close menu"
+  role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+   <aside class="menu white-boxes">
+    <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;alert(1)">
+      <a href="#home">
+        LOGO
+      </a>
+    </h1>
+    <nav>
+        <ul onclick="getElementById('close-menu').checked = false;alert(1)">
+            <li>
+                <a href="#intro">intro</a>
+            </li>
+            <li>
+                <a href="#grid-one">top 3</a>
+            </li>
+            <li>
+                <a href="#gallery">gallery</a>
+            </li>
+            <li>
+                <a href="#grid-two">work</a>
+            </li>
+            <li>
+                <a href="#pricing">pricing</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+          </li>
+        </ul>
+    </nav>
+    </div>
+   </aside>
+   <div class="menu-spacing"></div>
+
+   <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>HTML Master: Desvendando o Mundo da Linguagem de Marcação Web</h2>
+        <p>um site dedicado a fornecer conhecimentos abrangentes sobre HTML, a linguagem fundamental para a criação de páginas da web. Seja você um iniciante curioso ou um desenvolvedor experiente em busca de aprimoramento, o site oferece recursos valiosos para dominar os conceitos e técnicas do HTML. Explore tutoriais passo a passo, dicas práticas e exemplos de código para criar layouts eficientes, estruturar o conteúdo de forma semântica e incorporar elementos interativos em suas páginas. </p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/undraw_static_website_re_x70h.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+   <section id="intro" class="white-boxes section">
+    <div class="main-content top3-content">
+      <h2>Top 3 Jobs</h2>
+      <p>Desenvolvedor Front-End: Um desenvolvedor front-end especializado em HTML é responsável por criar interfaces de usuário atraentes e funcionais usando HTML, CSS e JavaScript.</p>
+      <p>Especialista em E-mail Marketing: Um especialista em e-mail marketing com experiência em HTML é responsável por criar templates de e-mail eficazes e visualmente atraentes.</p>
+      <p>Web Designer: Um web designer com habilidades em HTML tem a tarefa de criar layouts e designs visuais atraentes para sites. Eles combinam seus conhecimentos de HTML e CSS para implementar os designs em código funcional.</p>
+    </div>
+   </section>
+   <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">My Grid</h2>
+      <p class="grid-description">Uma breve descrição.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Teste 1</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+          nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+          provident maiores.</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+          nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+          provident maiores.</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+          nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+          provident maiores.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-boxes section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Gallery</h2>
+      <p class="grid-description">Uma breve descrição.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="https://source.unsplash.com/random/350x350?r=1" alt="random img from unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="https://source.unsplash.com/random/350x350?r=2" alt="random img from unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="https://source.unsplash.com/random/350x350?r=3" alt="random img from unsplash">
+        </div>
+          <div class="gallery-img">
+            <img src="https://source.unsplash.com/random/350x350?r=4" alt="random img from unsplash">
+          </div>
+          <div class="gallery-img">
+            <img src="https://source.unsplash.com/random/350x350?r=5" alt="random img from unsplash">
+          </div>
+          <div class="gallery-img">
+            <img src="https://source.unsplash.com/random/350x350?r=6" alt="random img from unsplash">
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">My Grid</h2>
+      <p class="grid-description">Uma breve descrição.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Teste 1</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+          nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+          provident maiores.</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+          nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+          provident maiores.</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+          nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+          provident maiores.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Pricing</h2>
+      <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some
+        surprises at the machine’s performance. This post details some background information on the experience of
+        porting Firefox to run natively on these CPUs.</p>
+      <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to
+        know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Pricing table</caption>
+
+          <thead>
+            <tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Testando</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+   <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>HTML Master: Desvendando o Mundo da Linguagem de Marcação Web</h2>
+        <p>um site dedicado a fornecer conhecimentos abrangentes sobre HTML, a linguagem fundamental para a criação de páginas da web. Seja você um iniciante curioso ou um desenvolvedor experiente em busca de aprimoramento, o site oferece recursos valiosos para dominar os conceitos e técnicas do HTML. Explore tutoriais passo a passo, dicas práticas e exemplos de código para criar layouts eficientes, estruturar o conteúdo de forma semântica e incorporar elementos interativos em suas páginas. </p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/undraw_static_website_re_x70h.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+      <div class="contact-form">
+        <fieldset>
+          <legend>Contact me</legend>
+  
+          <div class="form-group"> 
+            <label for="first-name">Primeiro nome</label>
+            <input type="text" 
+            name="first-name"
+            id="first-name" placeholder="Your name">
+          </div>
+          <div class="form-group"> 
+            <label for="last-name">Segundo nome</label>
+            <input type="text" 
+            name="last-name"
+            id="last-name"
+            placeholder="Your last-name">
+          </div>
+          <div class="form-group"> 
+            <label for="email">E-mail</label>
+            <input type="email" 
+            name="email"
+            id="email"
+            placeholder="Your E-mail">
+          </div>
+          <div class="form-group full-width"> 
+            <label for="message">Mensagem</label>
+            <textarea 
+            name="message" 
+            id="message" 
+            cols="30" 
+            rows="10"
+            placeholder="Your Message"></textarea>
+          </div>
+          <div class="form-group full-width"> 
+            <button type="submit">Enviar mensagem</button>
+          </div>
+        </fieldset>
+  
+      </div>
+    </div>
+  </section>
+  <footer class=" jean-martin">
+    <p><a href="">feito com <span class="heart">❤</span> por Jean Martin</a></p>
+  </footer>
+  <a class="back-to-top" href="#"></a>
+</body>
+</html>
